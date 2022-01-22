@@ -2,6 +2,8 @@
 
 Don’t over-engineering! No suggested architecture for SwiftUI, just MVC without the C. On SwiftUI you get extra (or wrong) work and complexity for no benefits. Don’t fight the system.
 
+## Software engineering
+
 Simple software design can only be achieved by really fully understanding the problem First you have to really understand what’s going on, in all its complexities, and then come up with a solution so simple that – in hindsight – it is the obvious way to do it.
 
 - Don't over-engineer your code
@@ -13,7 +15,7 @@ Simple software design can only be achieved by really fully understanding the pr
 
 Be careful, in an effort to make code more testable, we can very often find ourselves introducing a ton of new protocols and other kinds of abstractions, and end up making our code significantly more complicated.
 
-There's an object for that!
+**There's an object for that!**
 
 1. Identify Objects
 2. Identify Tasks
