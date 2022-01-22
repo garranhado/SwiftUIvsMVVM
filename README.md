@@ -1,6 +1,4 @@
-# SwiftUIvsMVVM
-
-Stop using MVVM for SwiftUI
+# Stop using MVVM for SwiftUI
 
 Don’t over-engineering! No suggested architecture for SwiftUI, just MVC without the C. On SwiftUI you get extra (or wrong) work and complexity for no benefits. Don’t fight the system.
 
@@ -26,6 +24,7 @@ There's an object for that!
 - Avoid unnecessary internal & external dependencies
 - Avoid too many layers of abstraction or complexity
 - Use nested type for supporting or to hide complexity
+
 
 ![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/46E62DED-A5FA-42C9-B681-86C92B14383D.jpeg)
 ![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/DA6D8902-D9FB-40EA-81EC-308B2F5226F9.jpeg)
