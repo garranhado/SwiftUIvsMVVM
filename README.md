@@ -15,6 +15,8 @@ Simple software design can only be achieved by really fully understanding the pr
 
 Be careful, in an effort to make code more testable, we can very often find ourselves introducing a ton of new protocols and other kinds of abstractions, and end up making our code significantly more complicated.
 
+In the agile world use Feature Driven Development (FDD) and avoid Test Driven Development (TDD).
+
 **There's an object for that!**
 
 1. Identify Objects
