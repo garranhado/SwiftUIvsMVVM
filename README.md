@@ -25,6 +25,7 @@ There's an object for that!
 - Avoid too many layers of abstraction or complexity
 - Use nested type for supporting or to hide complexity
 
+## Facts
 
 ![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/46E62DED-A5FA-42C9-B681-86C92B14383D.jpeg)
 ![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/DA6D8902-D9FB-40EA-81EC-308B2F5226F9.jpeg)
