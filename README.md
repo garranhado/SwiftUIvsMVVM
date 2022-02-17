@@ -15,7 +15,7 @@ Simple software design can only be achieved by really fully understanding the pr
 
 Be careful, in an effort to make code more testable, we can very often find ourselves introducing a ton of new protocols and other kinds of abstractions, and end up making our code significantly more complicated. Don't go Clean / SOLID anti-patterns, be an OOP / POP engineer.
 
-In the agile world use Feature Driven Development (FDD) and avoid as you can Test Driven Development (TDD) / Extreme Programming (EP). 
+In the agile world use Feature Driven Development (FDD) and avoid as you can Test Driven Development (TDD) / Extreme Programming (XP). 
 
 **There's an object for that!**
 
