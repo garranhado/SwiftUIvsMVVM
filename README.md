@@ -40,3 +40,4 @@ In the agile world use Feature Driven Development (FDD) and avoid as you can Tes
 ![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/SwiftUIvsMVVM.008.png)
 ![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/SwiftUIvsMVVM.009.png)
 ![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/SwiftUIvsMVVM.010.png)
+![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/SwiftUIvsMVVM.011.png)
