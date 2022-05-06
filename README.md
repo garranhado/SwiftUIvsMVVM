@@ -2,6 +2,10 @@
 
 Don’t over-engineering! No suggested architecture for SwiftUI, just MVC without the C. On SwiftUI you get extra (or wrong) work and complexity for no benefits. Don’t fight the system.
 
+*Declarative UI does not require MVVM. We are now in an era where declarative UI is commonplace in iOS development.*
+
+*In the field of React/Vue/Flutter, which also uses declarative UI, the architecture of MVVM is not adopted, and it seems strange to adopt MVVM only in SwiftUI.*
+
 ## Software engineering
 
 Simple software design can only be achieved by really fully understanding the problem First you have to really understand what’s going on, in all its complexities, and then come up with a solution so simple that – in hindsight – it is the obvious way to do it.
