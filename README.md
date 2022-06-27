@@ -1,6 +1,6 @@
 # Stop using MVVM for SwiftUI
 
-Don’t over-engineering! No suggested architecture for SwiftUI, just MVC without the C. On SwiftUI you get extra (or wrong) work and complexity for no benefits. Don’t fight the system.
+Don’t over-engineering! No suggested architecture for SwiftUI, just MVC without the C.
 
 *Declarative UI does not require MVVM. We are now in an era where declarative UI is commonplace in iOS development.*
 
@@ -17,21 +17,22 @@ Simple software design can only be achieved by really fully understanding the pr
 - Avoid sacrificing software design for testability
 - Consider mocking only as a last resort
 
-Be careful, in an effort to make code more testable, we can very often find ourselves introducing a ton of new protocols and other kinds of abstractions, and end up making our code significantly more complicated. Don't go Clean / SOLID anti-patterns, be an OOP / POP engineer.
-
-In the agile world use Feature Driven Development (FDD) and avoid as you can Test Driven Development (TDD) / Extreme Programming (XP). 
+Be careful, in an effort to make code more testable, we can very often find ourselves introducing a ton of new protocols and other kinds of abstractions, and end up making our code significantly more complicated. Follow KISS (Keep It Simple Stupid) principles.
 
 **There's an object for that!**
 
-1. Identify Objects
+1. Identify Objects (structs / classes)
 2. Identify Tasks
 3. Identify Dependencies
 
 - Don’t fight the system
 - Don’t literally start with a protocol
+- Start with concrete types, generalize when needed
 - Avoid unnecessary internal & external dependencies
 - Avoid too many layers of abstraction or complexity
 - Use nested type for supporting or to hide complexity
+- Define constants only where they are necessary (e.g. PI, notification names)
+- Prioritize code simplicity, readability and independence
 
 ## Slides
 
@@ -47,3 +48,8 @@ In the agile world use Feature Driven Development (FDD) and avoid as you can Tes
 ![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/SwiftUIvsMVVM.010.png)
 ![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/SwiftUIvsMVVM.011.png)
 ![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/SwiftUIvsMVVM.012.png)
+![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/SwiftUIvsMVVM.013.png)
+![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/SwiftUIvsMVVM.014.png)
+![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/SwiftUIvsMVVM.015.png)
+![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/SwiftUIvsMVVM.016.png)
+![](https://raw.githubusercontent.com/garranhado/SwiftUIvsMVVM/main/SwiftUIvsMVVM.017.png)
